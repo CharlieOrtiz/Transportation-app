@@ -1,0 +1,31 @@
+[
+    {
+        "1.- ¿Puede acudir una persona ajena al usuario final de TF a realizar el trámite de emisión o registro?" : "No. El proceso de la emisión y registro de la Tarjeta FERIA es 100% personal, ya que se requiere la validación del usuario presencialmente, la toma de fotografía para la personalización del plástico, así como el manejo de documentación sensible.",
+        "2.- ¿Qué documentos son aceptados como identificación oficial?" : "Credencial para votar, Pasaporte, Cédula profesional, Cartilla del servicio militar nacional, Credencial expedida por el Instituto Mexicano del Seguro Social, Certificado de matrícula consular y Licencia de conducir. Para los trámites de menores de edad, ¿Solo puede acudir el padre o tutor? No, el menor puede ir acompañado de cualquier mayor de edad, siempre y cuando esté último presente su identificación oficial.",
+        "3.- ¿Tiene costo el trámite de una Tarjeta FERIA?" : "El costo por trámite de la tarjeta FERIA es de $20.00 pesos."
+    },
+
+    {
+        "1.- ¿Puede ser utilizada mi Tarjeta FERIA por una persona ajena?" : "NO. Te recordamos que el uso de Tarjeta FERIA es personal e intransferible, únicamente la puede portar el titular de la tarjeta. Cuando una Tarjeta es detectada siendo utilizada por una persona ajena a al usuario registrado, ésta es remitida directamente al departamento de calidad para el boletinado (cancelación) inmediata, perdiendo su acreditación para la reposición de la misma.",
+        "2.- ¿Pueden realizarse cobros múltiples al usar mi Tarjeta FERIA en las unidades de transporte?" : "No, por cuestiones de seguridad para el saldo del usuario, después de realizar una transacción de uso en un validador del Sistema FERIA, en cualquiera de sus modalidades, la tarjeta queda bloqueada por 10 minutos.",
+        "3.- ¿Se puede utilizar la misma Tarjeta FERIA para pagar más de un pasaje en la misma unidad?" : "No por dos motivos. Como lo mencionamos anteriormente, la tarjeta queda bloqueada por 10 minutos después de realizada una transacción de uso y así mismo, el uso de Tarjeta FERIA es personal e intransferible."
+    },
+
+    {
+        "1.- ¿Qué debo de hacer en caso de robo o extravío de mi Tarjeta FERIA?" : "Debes acudir inmediatamente a un Centro de Emisión con identificación oficial y CURP impreso en formato oficial, para comenzar con el proceso de cancelación.",
+        "2.- ¿Para obtener una reposición de mi Tarjeta FERIA Preferente, debo de llevar los requisitos?" : "Una reposición como tal, es la emisión de una nueva Tarjeta FERIA Preferente, por lo que es necesario verificar de nueva cuenta el estado del usuario como vigente dentro de su segmento, así como la validación y vigencia del CURP. El costo de la reposición de Tarjeta FERIA es de $20.00 (Costo del plástico).",
+        "3.- ¿Se puede recuperar el saldo de una Tarjeta FERIA dañada?" : "Si, solo tienes que presentar la Tarjeta FERIA dañada, la papelería necesaria para la emisión de la nueva Tarjeta FERIA del segmento al que correspondas y listo, el saldo de tu Tarjeta anterior será traspasado el nuevo plástico."
+    },
+
+    {
+        "¿Qué es el boletinado FERIA?" : "El boletinado FERIA, es la cancelación DEFINITIVA de una tarjeta que cuenta con registro. Y este puede ser por distintos motivos.",
+        "1.- ¿Cuáles son las principales causas por las que mi Tarjeta FERIA puede ser boletinada?" : "Una Tarjeta FERIA puede ser cancelada por : Mal Uso, Datos No Legibles, Vigencia, A solicitud de un Usuario (Reporte de pérdida o extravío).",
+        "2.- ¿Cómo saber si mi Tarjeta FERIA fue boletinada?" : "Es fácil, al momento de pasarla por el validador arroja el mensaje Tarjeta Boletinada acompañada de una luz roja en el Led del validador."
+    },
+
+    {
+        "1.- ¿Cuál es la diferencia entre el transbordo FERIA y ECOVIA?" : "El transbordo Feria aplica entre unidades de transporte urbano que cuenten con validador FERIA realizando un descuento del 50% de descuento en la segunda unidad abordada y un 100% en la tercera unidad, siempre y cuando este dentro del límite de tiempo establecido. La acreditación del Transbordo FERIA es de uso exclusivo en pagos con tarifas urbanas. El transbordo ECOVIA es exclusivo entre las terminales y estaciones ECOVIA y las rutas que son alimentadoras y/o difusoras de la misma realizando un cobro total por el costo de la ECOVIA.",
+        "2.- ¿Cuál es la diferencia entre una ruta de transporte tradicional y una alimentadora?" : "La diferencia es solamente que la ruta alimentadora SI hará valido el transbordo en ECOVIA.",
+        "3.- ¿Cómo puedo identificar a una ruta alimentadora ECOVIA?" : "Las rutas alimentadoras de la ECOVIA se identifican por la siguiente nomenclatura: “A #Ruta”"
+    }
+]

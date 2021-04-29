@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moviferia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--FONT AWESOME (ICONS)-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header class="container header">
+            <nav class=" container navigation">
+                <div class="sidebar__menu">
+                    <div class="profile__container">
+                        <div class="profile__image-container">
+                            <a href="#" class="edit__profile"><i class="fas fa-edit"></i>Editar foto</a>
+                        </div>
+                        <a href="#" class="user__email">usuario@email.com</a>
+                        <a href="" class="button profile__button">Editar Perfil</a>
+                    </div>
+                    <ul class="sidebar__options">
+                        <li><a href="#" class="sidebar__link"><i class="fas fa-bus-alt"></i>Rutas frecuentes</a></li>
+                        <li><a href="#" class="sidebar__link"><i class="fas fa-map-marked-alt"></i>Destinos</a></li>
+                        <li><a href="#" class="sidebar__link"><i class="fas fa-bell"></i>Notificaciones</a></li>
+                        <li><a href="#" class="sidebar__link"><i class="fas fa-store"></i>Promociones</a></li>
+                        <li><a href="#" class="sidebar__link">Salir</a></li>
+                    </ul>
+                </div>  
+                <div class="header__container">
+                    <div class="header__menu">
+                        <div class="toggle__button">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="header__title-container">
+                            <h1>Moviferia</h1>
+                            <i class="fas fa-search search__button"></i>
+                        </div>
+                    </div>
+                    <ul class="container container__nav-links">
+                        <div class="search__container">
+                            <input type="text" class="input__search">
+                            <button type="button" class="search-close__button">x</button>
+                        </div>
+                        <li><a href="#" id="sesion" class="nav__links nav__link-clicked">Iniciar Sesión</a></li>
+                        <li><a href="##" id="index" class="nav__links">Principal</a></li>
+                        <li><a href="###" id="help" class="nav__links">Ayuda</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <!------------------------ LOGIN ---------------------->
+        <div class="container sesion__container hide__element show__element">
+            <div>
+            <img class="sign-image__logo" src="img/logo-feria.png" />
+
+            <section class="form-sign__container">
+                <form class="sign__form">
+                    <div class="input-sign__container">
+                        <input type="text" class="input-sign" placeholder="Usuario o correo electrónico">
+                    </div>
+                    <div class="input-sign__container">
+                        <input type="password" class="input-sign" placeholder="Contraseña">
+                    </div>
+                    <div class="footer__form">
+                        <div class="last-options__form">
+                            <input type="checkbox" class="save-password__checkbox" id="savePassword">
+                            <label for="savePassword">Recordar contraseña</label>
+                            <a href="#">¿Olvidaste tu contraseña?</a>
+                        </div>
+                        <div class="btn-sign-in__container">
+                            <input type="button" class="button sign-in" value="Iniciar Sesión"> 
+                        </div> 
+                    </div>
+                </form>
+                <div class="sign-up-link__container">
+                    <span>¿No tienes una cuenta?</span>
+                    <a href="#" class="sign-up-link">Regístrate</a>
+                </div>
+            </section>
+            </div>
+        </div>
+<!---------------------- MAIN ---------------------->
+        <div class="container index__container hide__element">
+            <div class="index__option-container saldo__option-container">
+                <div class="index__image-container index__saldo-img">
+                    
+                </div>
+                <div class="index__info-container">
+                    <h2>Saldo</h2>
+                    <p>Consulta el saldo de tu tarjeta feria</p>
+                    <a href="" class="index-btn button saldo__button">Ver más</a>
+                </div>
+            </div>
+
+            <div class="index__option-container tramite__option-container">
+                    <div class="index__image-container index__tramite-img">
+                        
+                    </div>
+                    <div class="index__info-container">
+                        <h2>Trámites</h2>
+                        <p>Tramita tu tarjeta feria online</p>
+                        <a href="" class="index-btn button tramite__button">Ver más</a>
+                    </div>
+            </div>
+
+            <div class="index__option-container busmap__option-container">
+                    <div class="index__image-container index__busmap-img">
+                        
+                    </div>
+                    <div class="index__info-container">
+                        <h2>Bus map</h2>
+                        <p>Consulta las rutas que te llevan a tu destino</p>
+                        <a href="" class="index-btn button busmap__button">Ver más</a>
+                    </div>
+            </div>
+
+            <div class="index__option-container vialidad__option-container">
+                    <div class="index__image-container index__vialidad-img">
+                        
+                    </div>
+                    <div class="index__info-container">
+                        <h2>Vialidad</h2>
+                        <p>Observa la circulación víal en tiempo real</p>
+                        <a href="" class="index-btn button vialidad__button">Ver más</a>
+                    </div>
+            </div>
+
+        </div>
+
+    <!-------------------------- HELP --------------------------->
+    <div class="container help__container hide__element">
+        <div class="subject-issue__container">
+            <a class="subject-issue__text button" data-id="0"><span class="drop-list__sprite"></span>Registro de tarjeta feria</a>
+            <div class="faq__container" id="faqZero">
+
+            </div>
+        </div>
+
+        <div class="subject-issue__container">
+            <a class="subject-issue__text button" data-id="1"><span class="drop-list__sprite"></span>Uso correcto tarjeta feria</a>
+            <div class="faq__container" id="faqOne">
+            </div>
+        </div>
+
+        <div class="subject-issue__container">
+            <a class="subject-issue__text button" data-id="2"><span class="drop-list__sprite"></span>Reposición tarjeta feria</a>
+            <div class="faq__container" id="faqTwo">
+
+            </div>
+        </div>
+
+        <div class="subject-issue__container">
+            <a class="subject-issue__text button" data-id="3"><span class="drop-list__sprite"></span>Boletinado feria</a>
+            <div class="faq__container" id="faqThree">
+
+            </div>
+        </div>
+
+        <div class="subject-issue__container">
+            <a class="subject-issue__text button" data-id="4"><span class="drop-list__sprite"></span>Transbordos feria</a>
+            <div class="faq__container" id="faqFour">
+
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="js/app.js"></script>
+
+</body>
+</html>
